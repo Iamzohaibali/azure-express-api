@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from Azure App Service!",
+    message: "Hello from Azure App Service! This is a Node.js application running on Azure.",
     status: "success"
   });
 });
